@@ -12,18 +12,19 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #121212;
-    padding: 20px;
+    padding: 50px;
     border-bottom: 1px solid black;
     font-size: 40px;
     position: relative;
     width: 100%;
 }
 .logo img{
-    width: 100px;
+    width: 150px;
     height: auto;
     position: absolute;
     top: 10px;
     left: 20px;
+    border: 1px solid #1db954;
 }
 .featured {
     margin: 20px;
@@ -65,17 +66,35 @@ body {
 }
 .footer{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-left: 160px;
     background-color:#212121;
     padding: 20px;
     border-top: 1px solid black;
-    font-size: 20px;    
+    font-size: 13px;    
 }
 .footer img{
-    width: 200px;
+    width: 150px;
     height: auto;
     position: absolute;
-    
+    border: 1px solid #1db954;
     left: 20px;
+}
+.autobioinfo{
+    max-width: 250px;
+    justify-content: center;
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.footer .medialinks{
+    color:white;
+}
+.footer .backtotop{
+    color:white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
