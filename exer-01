@@ -5,8 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <nav class="navBar">
+        The portfolio of Asti Magmanlac
+    </nav>
+    <div class="featuredPhoto"> Featured Photo</div>
+    <div class="featured">
+        <img src="./resources/placeholder.jpg" class="featPhoto">
+    </div>
     
+    <div class="projects">
+        <div class="previousProjects"> Previous Projects</div>
+        <div class="photos">
+           <img src="./resources/placeholder.jpg" class="image" id="image1">
+           <img src="./resources/placeholder.jpg" class="image" id="image2">
+           <img src="./resources/placeholder.jpg" class="image" id="image3">
+           <img src="./resources/placeholder.jpg" class="image" id="image4">
+        </div>   
+    </div>
+    <div class="section2">
+        <div class="skills"> Skills</div>
+        <div class="autoBio"> Autobiography</div>
+    </div>
+    <div class="subsection2">
+        <div class="square1"> Skills </div>
+        <div class="square2"> Autobio</div>
+    </div>
+    <footer class="footer">
+        <img src="./resources/placeholder.jpg" alt="" class="footerImage"> 
+        <div class="footercontent">
+            Footer Contents <br>
+            Logo, Address/Contact Information, and Personal Website <br>
+            Copyright Information <br>
+            Back to top <br>
+        </div>
+
+    </footer>
+  
 </body>
 </html>

@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.navBar {
+    width: 100%;
+    height: 150px;
+    font-size: 75px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.previousProjects{
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featuredPhoto{
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photos {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+.section2 {
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 50px;
+    flex-direction: row;
+    align-content: center;
+}
+.subsection2 {
+    width: 100%;
+    margin: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
