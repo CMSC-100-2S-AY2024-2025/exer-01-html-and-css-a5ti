@@ -4,15 +4,17 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    background-color: #212121;
+    color: 	#1db954;
 }
 .navBar{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: lightblue;
+    background-color: #121212;
     padding: 20px;
     border-bottom: 1px solid black;
-    font-size: 50px;
+    font-size: 40px;
     position: relative;
     width: 100%;
 }
@@ -36,12 +38,15 @@ body {
 .projects {
     margin: 20px;
 }
+
 .photos{
     display: flex;
     justify-content: center;
     gap: 15px;
 }
-
+.figproj{
+    width: 20vw;
+}
 .image{
     width: 20vw;
     height: auto;
@@ -62,7 +67,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: lightblue;
+    background-color:#212121;
     padding: 20px;
     border-top: 1px solid black;
     font-size: 20px;    
@@ -71,6 +76,6 @@ body {
     width: 200px;
     height: auto;
     position: absolute;
-
+    
     left: 20px;
 }
